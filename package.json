@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-context-s3",
+  "version": "0.1.0",
+  "description": "Node-RED Context Storage plugin using AWS S3 storage",
+  "main": "s3context.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakazuki/node-red-contrib-context-s3.git"
+  },
+  "keywords": [
+    "node-red",
+    "context",
+    "aws",
+    "s3"
+  ],
+  "author": "sakazuki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sakazuki/node-red-contrib-context-s3/issues"
+  },
+  "homepage": "https://github.com/sakazuki/node-red-contrib-context-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.311.0",
+    "json-stringify-safe": "^5.0.1"
+  }
+}
