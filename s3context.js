@@ -21,7 +21,7 @@ const AWS = require('aws-sdk');
 const s3 = new AWS.S3();
 const path = require("path");
 const safeJSONStringify = require('json-stringify-safe');
-const util = require('/mnt/c/cygwin64/home/saito/work/node-red-0.19/node_modules/node-red/red/runtime/util');
+const util = require('util');
 
 function getStoragePath(baseDir, scope){
     if (scope.indexOf(":") === -1) {
